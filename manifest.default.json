@@ -1,0 +1,60 @@
+{
+  "templates": [
+    {
+      "name": "rh-template-vue",
+      "type": "admin",
+      "belong": "template",
+      "materialsIncludes": ["materials-vue"],
+      "description": "vue 后台模板",
+      "git": "https://github.com/RootLinkFE/rh-template-vue.git"
+    },
+    {
+      "name": "rh-template-vue-admin",
+      "type": "admin",
+      "belong": "template",
+      "materialsIncludes": ["materials-vue"],
+      "description": "vue-admin 后台模板",
+      "git": "https://github.com/RootLinkFE/rh-template-vue-admin.git"
+    },
+    {
+      "name": "rh-template-react",
+      "description": "react 后台模板",
+      "type": "admin",
+      "belong": "template",
+      "materialsIncludes": [],
+      "git": "https://github.com/RootLinkFE/rh-template-react-umi.git"
+    },
+    {
+      "name": "rh-template-miniprogram-taro",
+      "description": "Taro小程序模板",
+      "type": "admin",
+      "belong": "template",
+      "materialsIncludes": [],
+      "git": "https://github.com/RootLinkFE/rh-template-miniprogram-taro.git"
+    }
+  ],
+  "materials": [
+    {
+      "name": "materials-vue",
+      "description": "vue 物料库",
+      "belong": "material",
+      "git": "https://github.com/RootLinkFE/materials-vue.git"
+    },
+    {
+      "name": "pro-blocks",
+      "description": "pro-blocks物料",
+      "belong": "material",
+      "git": "https://github.com/ant-design/pro-blocks.git",
+      "jsonFile": "umi-block.json",
+      "isExternal": true
+    },
+    {
+      "name": "ant-design-blocks",
+      "description": "ant-design物料",
+      "belong": "material",
+      "git": "https://github.com/ant-design/ant-design-blocks.git",
+      "jsonFile": "umi-block.json",
+      "isExternal": true
+    }
+  ]
+}
